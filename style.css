@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway&family=Roboto:wght@700&display=swap');
+
+/*Cabeçalho*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #cdcfd6;
+  background-image: linear-gradient(
+    90deg,
+    #a2a6be 0%,
+    #888488 46%,
+    #414141 100%
+  );
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px; /**/
+}
+
+.cabecalho_imagem {
+  height: 125px;
+}
+
+.cabecalho_menu {
+  display: flex;
+  gap: 450px;
+  position: absolute;
+  left: 400px;
+}
+
+.cabecalho_menu_item {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif Arial, sans-serif;
+  color: rgb(47, 200, 206);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+/*conteudo*/
+
+.conteudo {
+  border-top: 0.4px solid white;
+}
+
+.conteudo_principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo_principal_foto {
+  text-align: center;
+  max-width: 600px;
+  position: absolute;
+  top: 250px;
+  left: 175px;
+}
+
+.conteudo_principal_escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 400px;
+  left: 855px;
+}
+
+.conteudo_principal_escrito_paragrafo_ola {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-size: 50px;
+  color: rgb(26, 26, 26);
+  gap: 500px;
+}
+
+.conteudo_principal_escrito_titulo {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-size: 70px;
+  color: rgb(26, 26, 26);
+}
+
+.conteudo_principal_escrito_subtitulo {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+}
+
+.conteudo_principal_escrito_paragrafo {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.linguagens {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  left: 800px;
+}
+
+.linguagens_miniatura_html {
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  right: 1500px;
+}
+
+.linguagens_miniatura_css {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 25px;
+}
+
+.linguagens_miniatura_js {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 220px;
+}
+
+.linguagens_miniatura_c {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 420px;
+}
+
+.linguagens_miniatura_linux {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 630px;
+}
+
+.botao {
+  border: none;
+  box-shadow: black;
+  border-radius: 4440px;
+  width: 220px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  color: black;
+}
+
+.conteudo_rodape {
+  padding: 32px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: left;
+  top: 950px;
+  border-top: 0.4px solid white;
+  text-align: center;
+  left: 1000px;
+}
+
+.skills {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-weight: 300;
+  font-size: 40px;
+}
